@@ -7,10 +7,10 @@ class Playlist
       Playlist(string PlaylistTitle, PlaylistNode* nextNode = nullptr);
       void InsertAfter(PlaylistNode* nodePtr);
       void SetNext();
-      string GetID(string ID);
-      string GetSongName(string SongName);
-      string GetArtistName(string ArtistName);
-      int GetSongLength(int SongLength);
+      string GetID();
+      string GetSongName();
+      string GetArtistName();
+      int GetSongLength();
       PlaylistNode* GetNext();
       void PrintPlaylistNode();
     private:
